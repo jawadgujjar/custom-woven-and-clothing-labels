@@ -1,0 +1,116 @@
+.main-express {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.first-main-express {
+  margin-top: 1rem;
+  padding-top: 0.2rem;
+}
+.process-main-font {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.breadcrumb {
+  margin-top: 1rem;
+  color: #faf4eb !important;
+}
+.ant-breadcrumb a {
+  color: #faf4eb;
+}
+.headingbread {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5f6f65;
+  color: #faf4eb;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.express-clothing-heading {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 4rem;
+}
+.column-direction-express {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.inside-col-dire {
+  display: flex;
+}
+.ant-breadcrumb li:last-child {
+  color: #faf4eb;
+}
+ 
+.process-express {
+  padding: 3rem;
+  background-color: #5f6f65;
+  color: #faf4eb;
+   margin-top: 2rem;
+}
+.process-image-text {
+  display: block;
+}
+.process-main-divs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.process-divs {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.express-second-div {
+  display: block;
+  justify-content: center; /* This won't work with block elements, only with flex or grid */
+  text-align: center;
+  height: 24px; /* Make sure this is an appropriate value (e.g., px, rem, %, etc.) */
+}
+.step-image-express{
+    width: 5rem;
+    height: 5rem;
+}
+.txtmain{
+    margin-top: 2rem;
+}
+.icon-upload{
+    font-size: 2rem;
+    color: #3e4240;
+}
+@media (max-width: 1100px) {
+  .simpletable-heading {
+    text-align: center;
+  }
+  .main-express {
+    display: block;
+    justify-content: center;
+  }
+  .process-main-divs {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping */
+    width: 100%;
+    justify-content: space-between; /* Optional: space between the items */
+  }
+  .process-main-font {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .express-second-div {
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .headingbread {
+    display: block;
+  }
+  .inside-col-dire {
+    display: grid;
+  }
+  .main-express {
+    padding: 0rem;
+  }
+}

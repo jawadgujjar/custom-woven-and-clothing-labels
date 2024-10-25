@@ -1,0 +1,461 @@
+.centered-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.slider {
+  width: 20rem !important;
+}
+.left-column,
+.right-column {
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+}
+.left-column {
+  text-align: center;
+  width: 60rem;
+}
+.center-column {
+  text-align: left;
+  margin-top: 3rem;
+}
+
+.sticky-div {
+  position: sticky;
+  display: block;
+  justify-content: flex-end;
+  top: 20px;
+  line-height: 1;
+  border-radius: 5px;
+  transition: padding-top 0.3s; /* Smooth transition for padding change */
+}
+.scrolled-padding {
+  padding-top: 6rem;
+}
+
+.table-express {
+  display: grid;
+  justify-content: center;
+}
+
+.image-card-express {
+  width: 6rem;
+}
+
+.divs-tableexpress {
+  margin: 3rem auto; /* Vertically and horizontally center */
+  border: solid 0.5px #436886;
+  display: flex;
+  justify-content: center !important;
+  border-radius: 1rem;
+  padding: 1rem;
+  align-items: center;
+  background-color: #faf4eb;
+  width: 80%; /* Ensures it takes the full width available */
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card-grid-input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.full-width-input {
+  width: 100% !important;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.font-selector {
+  width: 100% !important;
+  height: 2rem;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.progress-bar-container {
+  margin-top: 3rem;
+  border: solid 0.5px #436886;
+  width: 100%;
+  padding: 1rem;
+  background-color: #faf4eb;
+  border-radius: 8px;
+}
+
+.custom-slider-wrapper {
+  margin-bottom: 1rem;
+}
+
+.custom-slider {
+  width: 100%;
+}
+
+.custom-progress-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-progress-bar {
+  width: 100%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-card-express {
+  width: 6rem;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.card-grid p {
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 4 cards per row */
+  gap: 16px;
+  /* Adjust the gap between cards as needed */
+}
+
+.image-card-express-1 {
+  width: 2rem;
+}
+
+.sticky-first {
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  padding: 0.5rem;
+  margin-bottom: 0rem !important;
+  background-color: #faf4eb;
+  border: 1px solid black;
+  width: 20rem;
+  border-radius: 0%;
+  font-weight: bold;
+  font-size: large;
+}
+
+.sticky-blue-1 {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center !important;
+  padding: 0.5rem;
+  margin-bottom: 0rem !important;
+  background-color: #5f6f65;
+  color: white;
+  width: 20rem;
+  border-radius: 0%;
+  font-weight: bold;
+  font-size: large;
+}
+
+.sticky-blue {
+  display: block;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 0.5rem;
+  margin-bottom: 0rem !important;
+  background-color: #5f6f65;
+  color: white;
+  width: 20rem;
+  border-radius: 0%;
+  font-weight: bold;
+  font-size: large;
+}
+
+.sticky-blue-inside {
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid white;
+  /* White line under each div */
+}
+
+p {
+  margin-bottom: 0rem !important;
+}
+
+.marg-bot {
+  margin-bottom: 1rem !important;
+}
+
+.button-tablecart {
+  display: flex;
+  align-items: center;
+  background-color: #007ab7 !important;
+  font-size: large;
+  font-weight: 700;
+  border: none;
+  border-radius: 0rem;
+  width: 12rem;
+  height: 3rem;
+  color: white;
+}
+
+.sticky-help {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #5f6f65;
+  width: 20rem;
+  height: 5rem;
+  border: solid 0.1px #102051;
+  margin-top: 2rem;
+  font-size: larger;
+  color: white;
+}
+
+.size-i {
+  font-size: 3rem;
+  color: #faf4eb !important;
+}
+
+.dynamic-label-text {
+  width: 15rem;
+  height: 10rem;
+  text-align: center;
+  padding: 3rem;
+  border: solid white 0.2rem;
+  margin: 0 auto;
+}
+.image-container-express {
+  display: flex;
+  flex-wrap: wrap; /* Allows the images to wrap to the next line */
+  gap: 8px; /* Space between the images */
+}
+
+.image-wrapper-express {
+  width: calc(50% - 8px); /* Width of each image wrapper (50% minus the gap) */
+  box-sizing: border-box; /* Ensures padding and borders are included in width/height */
+  margin: 0 auto;
+}
+
+.responsive-image1 {
+  width: 20%; /* Makes the image responsive to the wrapper */
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  margin: 1rem 0;
+}
+
+.responsive-image1:hover {
+  transform: scale(1.05);
+}
+.readmore-button {
+  background: transparent !important;
+  border: none;
+  color: #5f6f65;
+}
+.center-text-images {
+  margin-top: "8px";
+  font-size: "14px";
+}
+.center-nodisplay {
+  display: none;
+}
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 cards per row on medium screens */
+  }
+  .centered-row-table {
+    display: block !important;
+    margin-left: 20rem;
+  }
+
+  .centered-row-table-label {
+    display: grid !important;
+    margin-left: 10rem;
+  }
+  .center-column {
+    display: none;
+  }
+  .center-nodisplay {
+    display: block;
+    width: 60%;
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 1100px) {
+  .sticky-div {
+    position: static;
+    margin: 1rem auto; /* Vertically and horizontally center */
+    width: 100%; /* Full width by default */
+     display: block; /* Ensure it's block level to respect the margin */
+  }
+  .sticky-first,
+  .sticky-div,
+  .sticky-blue-1,
+  .sticky-blue,
+  .sticky-help {
+    width: auto !important;
+  }
+  .sticky-div {
+    margin: 1rem;
+  }
+  .scrolled-padding {
+    padding-top: 0rem;
+  }
+}
+@media (min-width: 1024px) {
+  .rowgap {
+    width: auto;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+    /* 1 card per row on extra small screens */
+  }
+  .centered-row-table-label {
+    margin-left: 0rem;
+  }
+  .divs-tableexpress {
+    width: 90% !important;
+  }
+}
+@media (min-width: 700px) and (max-width: 900px) {
+  .centered-row-table-label {
+    margin-left: 5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .sticky-first,
+  .sticky-blue,
+  .sticky-blue-1,
+  .sticky-help {
+    margin-left: 5rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .center-column {
+    text-align: center;
+  }
+  .center-text-images {
+    text-align: center;
+  }
+  .centered-row-table {
+    display: block !important;
+    margin-left: 0rem;
+  }
+  .center-column {
+    display: block;
+  }
+  .center-nodisplay {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .row-small-screens {
+    display: grid;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .centered-row {
+    display: grid;
+    justify-content: center;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 cards per row on small screens */
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+}
+
+/* Responsive adjustments for screens smaller than 425px */
+@media (max-width: 425px) {
+  .centered-row {
+    flex-direction: column;
+    /* Stack the columns vertically */
+    align-items: stretch;
+    /* Stretch columns to fill the width */
+  }
+
+  .left-column,
+  .right-column {
+    width: 10rem;
+    /* Full width for both columns */
+    padding: 0 !important;
+    /* Remove padding for better spacing */
+  }
+
+  .sticky-div {
+    position: static;
+    /* Make the sticky div static for smaller screens */
+    margin: 1rem;
+    /* Add some margin above the sticky content */
+  }
+
+  .full-width-input {
+    width: 100% !important;
+    /* Full width of the parent container */
+    padding: 8px;
+    /* Small padding inside the input */
+    box-sizing: border-box;
+    /* Ensures padding doesn't overflow */
+    font-size: 1rem;
+    border-radius: 4px;
+    /* Optional: rounded corners */
+    border: 1px solid #ccc;
+    /* Optional: border for input */
+  }
+
+  .divs-tableexpress {
+    flex-direction: column;
+    /* Stack cards vertically */
+    align-items: center;
+    /* Center align items */
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    /* 1 card per row on extra small screens */
+    padding: 1rem;
+    /* Adjust padding */
+  }
+
+  .image-card-express {
+    width: 4rem;
+    /* Adjust image size */
+  }
+
+  .image-card-express-1 {
+    width: 3rem;
+    /* Adjust image size for the second type of card */
+  }
+}

@@ -1,0 +1,143 @@
+/* firstnav.css */
+
+.firstnavbar-navbar {
+  padding: 10px 20px;
+  background-color: #5f6f65;
+ }
+
+.firstnavbar-logo {
+  width: 11rem;
+}
+
+.firstnavbar-container {
+  display: flex;
+  align-items: center;
+}
+
+.firstnavbar-brand {
+  margin-right: auto; /* Push the centered text to the center */
+}
+
+.firstnavbar-nav {
+  display: flex;
+  align-items: center; /* Vertically center items */
+  font-weight: bold;
+}
+.logos-firstnav {
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  border-radius: 1rem;
+  gap: 1rem;
+  color: #231f20;
+}
+
+.firstnavbar-link {
+  margin-left: 5px; /* Gap between links */
+  color: #FAF4EB;
+}
+.cart-strong {
+  color: #FAF4EB;
+}
+.social-icon-first {
+  width: 2rem;
+  height: 2rem;
+  background: #FAF4EB ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  color: #5f6f65 !important;
+}
+
+.firstnavbar-center {
+  margin-left: 5px;
+  background-color: #faf4eb;
+  width: 22rem;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.code-text {
+  font-weight: 800;
+  color: #231F20;
+}
+.code-off {
+  font-weight: bold;
+  color: #231F20;
+}
+.button-show {
+  display: none;
+}
+.mainnav-quote-button {
+  margin-left: 20px;
+  background-color: #5F6F65;
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  transition: background-color 0.3s; /* Smooth transition */
+  font-weight: bold;
+}
+
+.mainnav-quote-button:hover {
+  background-color: white; /* Change background to white on hover */
+   border: 1px solid rgb(3, 28, 29); /* Add border on hover */
+}
+
+.mainnav-image {
+  margin-left: 15px; /* Space between button and image */
+  width: 8rem;
+}
+@media (max-width: 768px) {
+  .button-show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .phone-number-div-show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FAF4EB;
+    text-decoration: none;
+  }
+  .mobile-icon-show{
+    font-size: 2rem;
+  }
+  .text-phone-show p{
+    font-size:x-small ;
+  }
+  .firstnavbar-logo {
+    display: none; /* Hide the logo on smaller screens */
+  }
+  .firstnavbar-brand {
+    display: none; /* Hide login/register and icons on smaller screens */
+  }
+  .firstnavbar-link {
+    display: none; /* Hide login/register and icons on smaller screens */
+  }
+  .firstnavbar-center {
+    display: none; /* Hide the centered code on larger screens */
+  }
+}
+/* Media Queries for responsive design */
+@media (max-width: 991px) {
+  .social-icon-first {
+   display: none;
+  }
+  .firstnavbar-nav {
+    display: flex;
+    align-items: center; /* Vertically center items */
+  }
+  .code-off {
+    font-size: small;
+    margin-left: 10px;
+  }
+
+  .code-text {
+    font-size: small;
+    margin-right: 10px;
+  }
+}
